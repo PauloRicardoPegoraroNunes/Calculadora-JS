@@ -3,7 +3,7 @@ function botao(num){
     document.calc.visor.value=salvo+num;
 }
 
-function reset(limpa){
+function reset(){
     var resultado =  document.calc.visor.value;
     document.calc.visor.value ='';
     
