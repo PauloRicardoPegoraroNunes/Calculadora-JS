@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <meta charset="utf8" lang="pt-br"/> 
+        <script type="text/javascript" src="calculadora.js"></script>
+        <link rel="stylesheet" href='style.css'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+    <body>
+       
+    <form class='form' name='calc'>
+        <h1 class='h1'>Calculadora</h1>
+        <input class='text' type="text" name="visor"/><br>
+        <input type="button" class="btn btn-info" value="7" onclick="botao(value);"/>
+        <input type="button" class="btn btn-info" value="8" onclick="botao(value);"/>
+        <input type="button" class="btn btn-info" value="9" onclick="botao(value);"/>
+        <input type="button" class="btn btn-primary" value="/" onclick="botao(value);"/>
+        <br>
+        <input type="button" class="btn btn-info" value="4" onclick="botao(value);"/>
+        <input type="button" class="btn btn-info" value="5" onclick="botao(value);"/>
+        <input type="button" class="btn btn-info" value="6" onclick="botao(value);"/>
+        <input type="button" class="btn btn-primary" value="*" onclick="botao(value);"/>
+        <br>
+        <input type="button" class="btn btn-info" value="1" onclick="botao(value);"/>
+        <input type="button" class="btn btn-info" value="2" onclick="botao(value);"/>
+        <input type="button" class="btn btn-info" value="3" onclick="botao(value);"/>
+        <input type="button" class="btn btn-primary" value="-" onclick="botao(value);"/>
+        <br>
+        <input type="button" class="btn btn-info" value="0" onclick="botao(value);"/>
+        <input type="button" class="btn btn-primary" value="," onclick="botao(value);"/>
+        <input type="button" class="btn btn-primary" value="%" onclick="botao(value);"/>
+        <input type="button" class="btn btn-primary" value="+" onclick="botao(value);"/>
+        <br>
+        <input type="button" class="btn btn-success" value="=" onclick="calcule();"/>
+        <input type="button" class="btn btn-danger" value="c" onclick="reset();"/>
+
+    </form>
+    </body>
+
+
+
+
+
+
+
+
+
+
+</html>
